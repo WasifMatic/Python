@@ -21,11 +21,11 @@ The package is compatible with Python versions `3.7+`.
 Install the package from PyPi using the following pip command:
 
 ```bash
-pip install link-payments-sdk==1.0.0
+pip install link-payments-sdk==1.0.8
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/link-payments-sdk/1.0.0
+https://pypi.python.org/pypi/link-payments-sdk/1.0.8
 
 ## Initialize the API Client
 
