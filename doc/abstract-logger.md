@@ -17,7 +17,7 @@ In order to provide custom logger implementation, the `AbstractLogger` class mus
 
 ```python
 import structlog
-from apimaticcalculator.logging.sdk_logger import AbstractLogger
+from swaggerpetstoreopenapi30.logging.sdk_logger import AbstractLogger
 
 
 class CustomLogger(AbstractLogger):
@@ -38,7 +38,7 @@ class CustomLogger(AbstractLogger):
 Following is how the custom logger implementation can be injected in the SDK client.
 
 ```python
-client = ApimaticcalculatorClient(
+client = Swaggerpetstoreopenapi30Client(
     logging_configuration=LoggingConfiguration(
         logger=CustomLogger()
     )
